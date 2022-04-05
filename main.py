@@ -30,7 +30,6 @@ if __name__ == "__main__":
         with open(file_path, "r") as file:
             for line in file:
                 word_list.append(line.strip())
-                word_list.append(line.strip22())
     else:
         print(f"El fichero {filename} no existe")
         word_list = ["ravenclaw", "gryffindor", "slytherin", "hufflepuff"]
