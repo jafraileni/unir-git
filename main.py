@@ -27,6 +27,7 @@ if __name__ == "__main__":
     file_path = os.path.join(".", filename)
     if os.path.isfile(file_path):
         word_list = []
+        word_list = [33]
         with open(file_path, "r") as file:
             for line in file:
                 word_list.append(line.strip())
