@@ -13,8 +13,6 @@ def sort_list(items, ascending=True):
         raise RuntimeError(f"No puede ordenar {type(items)}")
 
     return sorted(items, reverse=(not ascending), nuevo)
-    
-    if then
 
 if __name__ == "__main__":
     filename = DEFAULT_FILENAME
