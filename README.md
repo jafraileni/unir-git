@@ -2,7 +2,4 @@
 
 Este repositorio nos servir√° para demostrar el uso de Git en la asignatura de EIEC y muchas cosas mas.
 
-seguimos con la m·ster
-
-seguimos master 2
 

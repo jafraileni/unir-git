@@ -23,7 +23,6 @@ if __name__ == "__main__":
         sys.exit(1)
 
     print(f"Se leerán las palabras del fichero {filename}")
-    print(f"Se leerán las palabras del fichero {filename}")
     file_path = os.path.join(".", filename)
     if os.path.isfile(file_path):
         word_list = []
